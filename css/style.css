@@ -1,0 +1,51 @@
+.box {
+width: 100%;
+margin: 0 auto;
+position: relative;
+}
+
+title{
+    font-size: 24px;
+}
+
+body {
+    background-color: rgb(135, 205, 243);
+    width: 100%;
+    color: black;
+    font-family: Georgia, "Times New Roman" , Times, serif;
+    font-size: 18px;
+    text-align: justify;
+    position: relative;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+header{
+    background-color: rgb(76, 172, 172)
+}
+p{
+    max-width: 450px;
+}
+
+
+#biopic, #selfie, #contact {
+    float: left;
+    position: relative;
+}
+#biopic {
+    width: calc(70% - 30px);
+    margin: 15px;
+    position: relative;
+}
+#selfie{
+padding: 5px;    
+width: 180px;
+height: 250px;
+}
+#contact {
+    width: 30%;
+    position: relative;
+}
